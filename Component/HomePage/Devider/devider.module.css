@@ -1,0 +1,41 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons {
+    display: flex;
+    gap: 20px;
+}
+.icons li a {
+    color: red;
+    transition: color 0.5s;
+}
+.icons li a:hover{
+    color: #000;
+}
+.social_text {
+    font-size: 13px;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 0.6px;
+    font-family: 'Roboto', sans-serif;
+}
+.social_heading {
+    font-size: 20px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 600;
+}
+
+@media(max-width:400px) {
+    .flex {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .icons {
+        display: flex;
+        justify-content: center;
+    }
+}

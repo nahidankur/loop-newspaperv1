@@ -1,0 +1,127 @@
+.flex_container {
+    height: 500px;
+}
+.feature_image_container{
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 500px;
+}
+.feature_img {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,.2) 59%, rgba(0,0,0,.8) 100%), url("/feature-001.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s;
+}
+.feature_img:hover{
+    transform: scale(1.05);
+}
+
+
+.feature_text {
+    margin-left: 50px;
+    margin-bottom: 65px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.feature_heading {
+    padding-top: 16px;
+    margin-bottom: 16px;
+}
+.side_text {
+    margin-left: 20px;
+}
+
+.h3{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.side_text h3{
+
+    margin: 25px 0;
+}
+
+.side_text p{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+.side_image img {
+    transition: all 0.5s ease;
+    border-radius: 5px;
+    height: 146px;
+    width: 183px;
+    object-fit: cover;
+}
+.side_image img:hover{
+    transform: scale(1.02);
+}
+.admin{
+    color: #000;
+    font-weight: 600;
+    transition: all 0.3s;
+    margin-right: 10px;
+}
+.admin2{
+    color: #fff;
+    font-weight: 600;
+    transition: all 0.3s;
+    margin-right: 10px;
+}
+.admin:hover{
+    color: #0073ff;
+}
+.comments {
+    margin-left: 20px;
+}
+
+.feature_side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 40%;
+}
+
+@media (max-width:992px){
+    .feature_side {
+        margin-top: 25px;
+    }
+    .flex_container {
+        padding-bottom: 1000px;
+    }
+
+}
+
+
+@media (max-width:400px) {
+    .side_image img {
+        width: 100% !important;
+        height: auto !important;
+    }
+    .responsive {
+        display: block;
+    }
+    .side_text {
+        margin-left: 0;
+    }
+    .margin {
+        margin-top: 15px !important;
+    }
+    .flex_container {
+        padding-bottom: 1860px;
+    }
+   
+}
+
+@media (max-width:1041px) {
+    .side_image img {
+        height: 136px;
+        width: 173px;
+    } 
+}
