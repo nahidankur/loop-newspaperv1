@@ -35,7 +35,7 @@ export default function ImageLoader({
 }: _Params) {
   return (
     <Image
-      src={`${process.env.NEXT_PUBLIC_URL}/${src}`}
+      src={`/uploads/${src}`}
       alt={alt || src || ""}
       width={width || 100}
       height={height || 100}
@@ -66,7 +66,7 @@ export function ImageLoaderResponsive({
 }: _Params) {
   return (
     <Image
-      src={`${process.env.NEXT_PUBLIC_URL}/${src}`}
+      src={`/uploads/${src}`}
       alt={alt || src || ""}
       className={cssClass || null}
       style={style || null}
