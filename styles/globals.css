@@ -26,8 +26,10 @@ body{
     text-transform: uppercase;
     border-radius: 2px;
     font-size: 12px;
+    font-weight: 600;
 }
 .tag_btn:hover {
+    background: #000;
     color: #fff;
 }
 .bg_orange{

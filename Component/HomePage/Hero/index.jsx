@@ -14,7 +14,7 @@ export default function Hero() {
                   <a className='tag_btn bg_pink' href='#'>Fashion</a>
                   <div className={c.feature_heading}>
                       <a href='#'>
-                          <h2 className='h2 white'>Big Budget Issues Force The Our To Be Cancelled</h2>
+                          <h2 className='h2 white'>Budget Issues Force The Our To Be Cancelled</h2>
                       </a>
                   </div>
                   <p className='sub_text lgrey'> BY <a href='#' className={`${c.admin2}`}>ADMIN</a> <AiOutlineCalendar /> JUNE 19, 2023<span className={c.comments}><FaRegComments /> 0 Comments</span> </p>  
