@@ -8,12 +8,59 @@ export default function Herov2() {
         <div className={`section-space ${c.marginBottom}`}>
             <div className={c.bg_grey}>
             <div className='custom_container'>
-                <div className={`row`}>
+
+                <div className={c.flex1}>
+                <div className={c.iconBox}>
+                        <HiArrowSmallLeft className={c.icon} />
+                </div>
+               
+               <div className='row'>
+                <div className={`${c.padding} col-lg-3 col-md-3`}>
+                <div>
+                    <p className={c.subtext}>Take a Stroll Through the Pros and Cons of Permanent Eyebrows Tattoos</p>
+                    <p className={c.date}>October 7, 2021</p>
+                </div>
+                </div>
+
+                <div className={`${c.padding} col-lg-3 col-md-3`}>
+                <div>
+                    <p className={c.subtext}>Take a Stroll Through the Pros and Cons of Permanent Eyebrows Tattoos</p>
+                    <p className={c.date}>October 7, 2021</p>
+                </div>
+                </div>
+
+                <div className={`${c.padding} col-lg-3 col-md-3`}>
+                <div>
+                    <p className={c.subtext}>Take a Stroll Through the Pros and Cons of Permanent Eyebrows Tattoos</p>
+                    <p className={c.date}>October 7, 2021</p>
+                </div>
+                </div>
+
+                <div className={`${c.padding} col-lg-3 col-md-3`}>
+                <div>
+                    <p className={c.subtext}>Take a Stroll Through the Pros and Cons of Permanent Eyebrows Tattoos</p>
+                    <p className={c.date}>October 7, 2021</p>
+                </div>
+                </div>
+               </div>
+
+               <div className={c.iconBox}>
+                        <HiArrowSmallRight className={c.icon} />
+                </div>
+
+
+                </div>
+
+
+
+                {/* <div className={`row`}>
                 <div className='col-lg-3 col-md-3'>
                     <div className='d-flex'>
-                        <div className={c.iconBox}>
+                       <div className='col-lg-3 col-md-3'>
+                       <div className={c.iconBox}>
                         <HiArrowSmallLeft className={c.icon} />
                         </div>
+                       </div>
                    
                     <div>
                     <p className={c.subtext}>Take a Stroll Through the Pros and Cons of Permanent Eyebrows Tattoos</p>
@@ -50,13 +97,13 @@ export default function Herov2() {
                     </div>
                     </div>
                 </div>
-                </div>
+                </div> */}
 
 
                 {/* second row */}
 
                 <div className='row'>
-                    <div className='col-lg-2 '>
+                    <div className='col-lg-2 col-md-2 '>
                     <h1 className={c.heading}>Fresh stroies</h1>
                     <p className={c.subtitle}>TODAY: BROWSE OUR EDITOR'S HAND PICKED ARTICLES!</p>
 
@@ -66,65 +113,80 @@ export default function Herov2() {
                             Cover Girl Announces Star Shine Makeup Line is Due for Next December
                             </a>
 
-                            <div className={`d-flex `}>
-                                <a className={c.tag3} href='#'>MAKE-UP</a>
-                                <p className={c.date3}>September 29, 2021</p>
+                            <div className={`${c.flex}`}>
+                                <div>
+                                <a className={`${c.tag3}`} href='#'> MAKE-UP</a>
+                                </div>
+                               
+                               <div className={c.date3}> September 29, 2021</div>
                             </div>
-                            <div className='border-top'></div>
+                            <div className={`border-top m-1 ${c.extraMargin}`}></div>
                         </div>
 
-                        <div >
+                        <div className='mt-2' >
                 
                             <a href="#" className={c.subtext}> <span className={c.hot_btn}>Exclusive</span>
                             Cover Girl Announces Star Shine Makeup Line is Due for Next December
                             </a>
 
-                            <div className={`d-flex `}>
-                                <a className={c.tag3} href='#'>MAKE-UP</a>
-                                <p className={c.date3}>September 29, 2021</p>
+                            <div className={`${c.flex}`}>
+                                <div>
+                                <a className={`${c.tag3}`} href='#'> MAKE-UP</a>
+                                </div>
+                               
+                               <div className={c.date3}> September 29, 2021</div>
                             </div>
-                            <div className='border-top'></div>
+                            <div className={`border-top m-1 ${c.extraMargin}`}></div>
                         </div>
 
-                        <div >
+                        <div className='mt-2' >
                             <a href="#" className={c.subtext}>
                             Cover Girl Announces Star Shine Makeup Line is Due for Next December
                             </a>
 
-                            <div className={`d-flex `}>
-                                <a className={c.tag3} href='#'>MAKE-UP</a>
-                                <p className={c.date3}>September 29, 2021</p>
+                            <div className={`${c.flex}`}>
+                                <div>
+                                <a className={`${c.tag3}`} href='#'> MAKE-UP</a>
+                                </div>
+                               
+                               <div className={c.date3}> September 29, 2021</div>
                             </div>
-                            <div className='border-top'></div>
+                            <div className={`border-top m-1 ${c.extraMargin}`}></div>
                         </div>
 
-                        <div >
+                        <div className='mt-2' >
+                            <a href="#" className={`${c.subtext}`}>
+                            Cover Girl Announces Star Shine Makeup Line is Due for Next December
+                            </a>
+
+                            <div className={`${c.flex}`}>
+                                <div>
+                                <a className={`${c.tag3}`} href='#'> MAKE-UP</a>
+                                </div>
+                               
+                               <div className={c.date3}> September 29, 2021</div>
+                            </div>
+                            <div className={`border-top m-1 ${c.extraMargin}`}></div>
+                        </div>
+
+                        <div className='mt-2' >
                             <a href="#" className={c.subtext}>
                             Cover Girl Announces Star Shine Makeup Line is Due for Next December
                             </a>
 
-                            <div className={`d-flex `}>
-                                <a className={c.tag3} href='#'>MAKE-UP</a>
-                                <p className={c.date3}>September 29, 2021</p>
+                            <div className={`${c.flex}`}>
+                                <div>
+                                <a className={`${c.tag3}`} href='#'> MAKE-UP</a>
+                                </div>
+                               
+                               <div className={c.date3}> September 29, 2021</div>
                             </div>
-                            <div className='border-top'></div>
-                        </div>
-
-                        <div >
-                            <a href="#" className={c.subtext}>
-                            Cover Girl Announces Star Shine Makeup Line is Due for Next December
-                            </a>
-
-                            <div className={`d-flex `}>
-                                <a className={c.tag3} href='#'>MAKE-UP</a>
-                                <p className={c.date3}>September 29, 2021</p>
-                            </div>
-                            <div className='border-top'></div>
+                            <div className={`border-top m-1 ${c.extraMargin}`}></div>
                         </div>
                     </div>
                     </div>
 
-                    <div className='col-lg-5 '>
+                    <div className='col-lg-5 col-md-5 '>
                   <div className={c.box}>
                   <div  className={c.featureImage}>
                         {/* <ImageLoader width={696} height={464} src='feature-009.jpg' /> */}
@@ -144,7 +206,7 @@ export default function Herov2() {
                     </div>
 
 
-                    <div className='col-lg-3 ' >
+                    <div className='col-lg-3 col-md-3' >
                         <div className={c.colImage}>
                             <ImageLoader width={696} height={464} src='breaking-003.jpg' />
                         </div>
@@ -164,7 +226,7 @@ export default function Herov2() {
                     </div>
 
 
-                    <div className='col-lg-2'>
+                    <div className='col-lg-2 col-md-2'>
                     <h1 className={c.heading}>Popular</h1>
 
                     <div className={c.sideBox}>
@@ -210,8 +272,6 @@ export default function Herov2() {
             </div>
             </div>
         </div>
-
-   
         </>
     )
 }
