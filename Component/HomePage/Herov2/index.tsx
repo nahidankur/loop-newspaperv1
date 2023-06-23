@@ -48,59 +48,7 @@ export default function Herov2() {
                         <HiArrowSmallRight className={c.icon} />
                 </div>
 
-
                 </div>
-
-
-
-                {/* <div className={`row`}>
-                <div className='col-lg-3 col-md-3'>
-                    <div className='d-flex'>
-                       <div className='col-lg-3 col-md-3'>
-                       <div className={c.iconBox}>
-                        <HiArrowSmallLeft className={c.icon} />
-                        </div>
-                       </div>
-                   
-                    <div>
-                    <p className={c.subtext}>Take a Stroll Through the Pros and Cons of Permanent Eyebrows Tattoos</p>
-                    <p className={c.date}>October 7, 2021</p>
-                </div>
-                    </div>
-                </div>
-
-
-                <div className='col-lg-3 col-md-3'>
-                <div>
-                    <p className={c.subtext}>Take a Stroll Through the Pros and Cons of Permanent Eyebrows Tattoos</p>
-                    <p className={c.date}>October 7, 2021</p>
-                </div>
-                </div>
-
-
-                <div className='col-lg-3 col-md-3'>
-                <div>
-                    <p className={c.subtext}>Take a Stroll Through the Pros and Cons of Permanent Eyebrows Tattoos</p>
-                    <p className={c.date}>October 7, 2021</p>
-                </div>
-                </div>
-
-
-                <div className='col-lg-3 col-md-3'>
-                <div className='d-flex'>
-                    <div>
-                    <p className={c.subtext}>Take a Stroll Through the Pros and Cons of Permanent Eyebrows Tattoos</p>
-                    <p className={c.date}>October 7, 2021</p>
-                    </div>
-                    <div className={c.iconBox2}>
-                    <HiArrowSmallRight className={c.icon} />
-                    </div>
-                    </div>
-                </div>
-                </div> */}
-
-
-                {/* second row */}
 
                 <div className='row'>
                     <div className='col-lg-2 col-md-2 '>
