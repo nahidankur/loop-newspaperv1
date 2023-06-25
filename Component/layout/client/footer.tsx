@@ -124,11 +124,10 @@ const Footer = ()=> {
                       <div>
                       <form>
                         <div className={c.inputDiv}>
-                        <input className={c.input} placeholder="Email Address" /> <br />
+                        <input type="email" className={c.input} placeholder="Email Address" required />  <br />
                         </div>
-
                         <div className={c.btnContainer}>
-                        <a className={c.subsscribeBtn} href="#"> I WANT IN <BsArrowRight /> </a>
+                        <a  className={c.subsscribeBtn} href="#"> I WANT IN <BsArrowRight /> </a>
                         </div>
                        
                         <div className={c.inputFlex}>

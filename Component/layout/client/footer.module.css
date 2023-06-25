@@ -80,6 +80,12 @@
 .fMenu {
     padding-bottom: 10px;
 }
+.fMenu a{
+    transition: color 0.3s;
+}
+.fMenu a:hover{
+    color: red;
+}
 .fMenu > a {
     color: #000;
     font-family: '__Work_Sans_eb2171';
@@ -89,6 +95,10 @@
     color: #000;
     font-family: '__Work_Sans_eb2171';
     font-weight: 600;
+    transition: color 0.3s;
+}
+.latestNews:hover{
+    color:red; 
 }
 .flex2 {
     display: flex;

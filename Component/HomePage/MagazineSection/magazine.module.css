@@ -90,6 +90,11 @@
     line-height: 1;
     font-weight: 600;
     padding: 0 15px;
+    transition: color 0.3s;
+    color: black;
+}
+.h1:hover{
+    color: red;
 }
 .h3{
     font-size: 16px;
@@ -98,6 +103,11 @@
     font-weight: 600;
     margin-top: 15px;
     padding-right: 30px;
+    color: #000;
+    transition: color 0.3s;
+}
+.h3:hover{
+    color: red;
 }
 .avatarImage2 {
     margin-right: 5px;

@@ -21,10 +21,11 @@ export default function Magazine(){
                             </div>
 
                             <div className={c.textBox}>
-                             <h1 className={c.h1}>
+                                <a href='#'>
+                                <h1 className={c.h1}>
                              Kristen Stewart Visits the Toronto Film Festival with New Boyfriend
                              </h1>
-
+                                </a>
                              <div className={c.flex3}>
                    <div className={c.avatarImage}>
                    <ImageLoader src='user.jpg' height={96} width={96} />
@@ -46,9 +47,11 @@ export default function Magazine(){
                             </div>
 
                             <div className={c.textBox}>
-                             <h1 className={c.h1}>
+                            <a href='#'>
+                                <h1 className={c.h1}>
                              Kristen Stewart Visits the Toronto Film Festival with New Boyfriend
                              </h1>
+                                </a>
 
                              <div className={c.flex3}>
                    <div className={c.avatarImage}>
@@ -73,7 +76,7 @@ export default function Magazine(){
                         <ImageLoader height={464} width={696} src='breaking-001.jpg' />
                         </div>
 
-                        <h3 className={c.h3}>The Biggest Hollywood Celebrities Visit the Ranches of California</h3>
+                        <a href='#'> <h3 className={c.h3}>The Biggest Hollywood Celebrities Visit the Ranches of California</h3></a>
 
                         <div className={c.flex3}>
                    <div className={c.avatarImage2}>
@@ -92,7 +95,7 @@ export default function Magazine(){
                         <ImageLoader height={464} width={696} src='breaking-002.jpg' />
                         </div>
 
-                        <h3 className={c.h3}>The Biggest Hollywood Celebrities Visit the Ranches of California</h3>
+                        <a href='#'> <h3 className={c.h3}>The Biggest Hollywood Celebrities Visit the Ranches of California</h3></a>
 
                         <div className={c.flex3}>
                    <div className={c.avatarImage2}>
@@ -111,7 +114,7 @@ export default function Magazine(){
                         <ImageLoader height={464} width={696} src='breaking-004.jpg' />
                         </div>
 
-                        <h3 className={c.h3}>The Biggest Hollywood Celebrities Visit the Ranches of California</h3>
+                        <a href='#'> <h3 className={c.h3}>The Biggest Hollywood Celebrities Visit the Ranches of California</h3></a>
 
                         <div className={c.flex3}>
                    <div className={c.avatarImage2}>
@@ -130,7 +133,7 @@ export default function Magazine(){
                         <ImageLoader height={464} width={696} src='breaking-003.jpg' />
                         </div>
 
-                        <h3 className={c.h3}>The Biggest Hollywood Celebrities Visit the Ranches of California</h3>
+                        <a href='#'> <h3 className={c.h3}>The Biggest Hollywood Celebrities Visit the Ranches of California</h3></a>
 
                         <div className={c.flex3}>
                    <div className={c.avatarImage2}>

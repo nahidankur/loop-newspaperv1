@@ -17,28 +17,28 @@ export default function Herov2() {
                <div className='row'>
                 <div className={`${c.padding} col-lg-3 col-md-3`}>
                 <div>
-                    <p className={c.subtext}>Take a Stroll Through the Pros and Cons of Permanent Eyebrows Tattoos</p>
+                  <a href='#'><p className={c.subtext}>Take a Stroll Through the Pros and Cons of Permanent Eyebrows Tattoos</p></a>  
                     <p className={c.date}>October 7, 2021</p>
                 </div>
                 </div>
 
                 <div className={`${c.padding} col-lg-3 col-md-3`}>
                 <div>
-                    <p className={c.subtext}>Take a Stroll Through the Pros and Cons of Permanent Eyebrows Tattoos</p>
+                <a href='#'><p className={c.subtext}>Take a Stroll Through the Pros and Cons of Permanent Eyebrows Tattoos</p></a>  
                     <p className={c.date}>October 7, 2021</p>
                 </div>
                 </div>
 
                 <div className={`${c.padding} col-lg-3 col-md-3`}>
                 <div>
-                    <p className={c.subtext}>Take a Stroll Through the Pros and Cons of Permanent Eyebrows Tattoos</p>
+                <a href='#'><p className={c.subtext}>Take a Stroll Through the Pros and Cons of Permanent Eyebrows Tattoos</p></a>  
                     <p className={c.date}>October 7, 2021</p>
                 </div>
                 </div>
 
                 <div className={`${c.padding} col-lg-3 col-md-3`}>
                 <div>
-                    <p className={c.subtext}>Take a Stroll Through the Pros and Cons of Permanent Eyebrows Tattoos</p>
+                <a href='#'><p className={c.subtext}>Take a Stroll Through the Pros and Cons of Permanent Eyebrows Tattoos</p></a>  
                     <p className={c.date}>October 7, 2021</p>
                 </div>
                 </div>
@@ -143,7 +143,7 @@ export default function Herov2() {
                         <a href='#' className='tag_btn bg_red'>Marketing
                         </a>
                         <a href='#'>
-                        <h1 className={c.h1}>Social Media Marketing for Franchises is Meant for Women</h1>
+                        <a href='#'><h1 className={c.h1}>Social Media Marketing for Franchises is Meant for Women</h1></a> 
                         </a> 
                         <p className={c.story}>
                         Find people with high expectations and a low tolerance for excuses. They'll have higher expectations for you than you have for yourself. Don't flatter yourself...
@@ -161,16 +161,14 @@ export default function Herov2() {
                         <div className={c.tag_btn}>
                         <a href="#" className={c.tag}>FINANCE</a>
                         </div>
-                     <p className={c.subtext}>A Look at How Social Media & Mobile Gaming Can Increase Sales</p>
-
-
+                          <a href='#'><p className={c.subtext}>A Look at How Social Media & Mobile Gaming Can Increase Sales</p></a> 
                      <div className={c.colImage}>
                             <ImageLoader width={696} height={464} src='breaking-004.jpg' />
                         </div>
                         <div className={c.tag_btn}>
                         <a href="#" className={c.tag}>FINANCE</a>
                         </div>
-                     <p className={c.subtext}>A Look at How Social Media & Mobile Gaming Can Increase Sales</p>
+                        <a href='#'><p className={c.subtext}>A Look at How Social Media & Mobile Gaming Can Increase Sales</p></a> 
                     </div>
 
 
