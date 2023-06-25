@@ -1,3 +1,4 @@
+
 .flex {
     display: flex;
     justify-content: space-between;
@@ -19,17 +20,17 @@
     font-weight: 600;
     color: #000;
     letter-spacing: 0.6px;
-    font-family: 'Roboto', sans-serif;
+    font-family: '__Work_Sans_eb2171';
 }
 .social_heading {
     font-size: 20px;
-    font-family: 'League Spartan', sans-serif;
+    font-family: '__Work_Sans_eb2171';
     font-weight: 600;
 }
 
-@media(max-width:400px) {
+@media(max-width:550px) {
     .flex {
-        display: block;
+        display: block !important;
         text-align: center;
         justify-content: center;
         align-items: center;

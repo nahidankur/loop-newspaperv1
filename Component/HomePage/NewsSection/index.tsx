@@ -34,7 +34,7 @@ export default function NewsSection() {
 
                 <div className='col-lg-3 col-md-6'>
                     <a href='#'>
-                    <div className={c.heading_image}>
+                    <div className={`${c.heading_image} ${c.margin}`}>
                         <ImageLoader height={464} width={696}  src='breaking-002.jpg' />
                     </div>
                     </a>
@@ -53,7 +53,7 @@ export default function NewsSection() {
 
                 <div className='col-lg-3 col-md-6'>
                 <a href='#'>
-                    <div className={c.heading_image}>
+                <div className={`${c.heading_image} ${c.margin}`}>
                         <ImageLoader height={464} width={696}  src='breaking-003.jpg' />
                     </div>
                     </a>
@@ -72,7 +72,7 @@ export default function NewsSection() {
 
                 <div className='col-lg-3 col-md-6'>
                 <a href='#'>
-                    <div className={c.heading_image}>
+                <div className={`${c.heading_image} ${c.margin}`}>
                         <ImageLoader height={464} width={696}  src='breaking-004.jpg' />
                     </div>
                     </a>

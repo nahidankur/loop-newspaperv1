@@ -5,6 +5,7 @@ import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube} from 'react-icons/fa'
 import { BsArrowRight} from 'react-icons/bs'
 
 const Footer = ()=> {
+  const currentYear = new Date().getFullYear();
     return (
         <>
         <footer className={c.footer_container}>
@@ -141,6 +142,12 @@ const Footer = ()=> {
                       </div> 
                     </div>
                 </div>
+
+                <div className={c.border2}></div>
+
+                <div>
+                  <p className={c.ftext}>© {currentYear} LoopNewsPaper. All Rights Reserved.</p>
+                </div>   
             </div>
         </footer>
         </>

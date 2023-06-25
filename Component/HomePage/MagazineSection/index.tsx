@@ -30,7 +30,7 @@ export default function Magazine(){
                    <ImageLoader src='user.jpg' height={96} width={96} />
                    </div>
                    <div className={c.flex2}>
-                   <a href='#'> <p className={c.username}>Dan Bush -</p></a>
+                   <a className={c.margin} href='#'> <p className={c.username}>Dan Bush -</p></a>
                    <p className={c.date}> September 29, 2021</p>
                    </div>
                   
@@ -55,7 +55,7 @@ export default function Magazine(){
                    <ImageLoader src='user.jpg' height={96} width={96} />
                    </div>
                    <div className={c.flex2}>
-                   <a href='#'> <p className={c.username}>Dan Bush -</p></a>
+                   <a className={c.margin} href='#'> <p className={c.username}>Dan Bush -</p></a>
                    <p className={c.date}> September 29, 2021</p>
                    </div>
                   
@@ -80,7 +80,7 @@ export default function Magazine(){
                    <ImageLoader src='user.jpg' height={96} width={96} />
                    </div>
                    <div className={c.flex2}>
-                   <a href='#'> <p className={c.username}>Dan Bush -</p></a>
+                   <a className={c.margin} href='#'> <p className={c.username}>Dan Bush -</p></a>
                    <p className={c.date}> September 29, 2021</p>
                    </div>
                   
@@ -99,7 +99,7 @@ export default function Magazine(){
                    <ImageLoader src='user.jpg' height={96} width={96} />
                    </div>
                    <div className={c.flex2}>
-                   <a href='#'> <p className={c.username}>Dan Bush -</p></a>
+                   <a className={c.margin} href='#'> <p className={c.username}>Dan Bush -</p></a>
                    <p className={c.date}> September 29, 2021</p>
                    </div>
                   
@@ -118,7 +118,7 @@ export default function Magazine(){
                    <ImageLoader src='user.jpg' height={96} width={96} />
                    </div>
                    <div className={c.flex2}>
-                   <a href='#'> <p className={c.username}>Dan Bush -</p></a>
+                   <a  className={c.margin}  href='#'> <p className={c.username}>Dan Bush -</p></a>
                    <p className={c.date}> September 29, 2021</p>
                    </div>
                   
@@ -137,7 +137,7 @@ export default function Magazine(){
                    <ImageLoader src='user.jpg' height={96} width={96} />
                    </div>
                    <div className={c.flex2}>
-                   <a href='#'> <p className={c.username}>Dan Bush -</p></a>
+                   <a  className={c.margin} href='#'> <p className={c.username}>Dan Bush -</p></a>
                    <p className={c.date}> September 29, 2021</p>
                    </div>
                   

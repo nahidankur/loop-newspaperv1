@@ -27,10 +27,10 @@
     transition: all 0.5s;
 }
  .image img:hover{
-    transform: scale(1.05);
+    transform: scale(1.14);
 } 
 .heading h2 {
-    font-family: 'League Spartan', sans-serif;
+    font-family: '__Work_Sans_eb2171';
     font-size: 24px;
     font-weight: 600;
     color: #fff;
@@ -46,9 +46,12 @@
     margin-bottom: 15px;
     
 }
+.margin {
+    margin-top: 20px;
+}
 .h3{
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
+    font-family: '__Work_Sans_eb2171';
     font-weight: 600;
     color: #fff;
     border: 2px solid red;
@@ -70,7 +73,10 @@
 .topFix {
     position: relative;
 }
+.hypeLink{
+    font-family: '__Work_Sans_eb2171';
 
+}
 .sub_image img {
     height: 84px;
     width: 84px;
@@ -78,7 +84,7 @@
 }
 .sub_heading  {
     padding-right: 6px;
-    font-family: 'League Spartan', sans-serif;
+    font-family: '__PT_Serif_5a5ee9';
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 0.3px;
@@ -89,7 +95,7 @@
     margin-top: 10px;
 }
 .btn a {
-    font-family: 'Roboto', sans-serif;
+    font-family: '__Work_Sans_eb2171';
     font-weight: 600;
     text-transform: uppercase;
     font-size: 12px;

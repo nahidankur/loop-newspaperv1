@@ -38,7 +38,7 @@ export default function BreakingNews() {
                            
                             <div className={`${c.box}`}>
                             <a href='#'>
-                                <div className={c.image}>
+                                <div className={`${c.image} ${c.margin}`}>
                                     <ImageLoader width={696} height={464} src='breaking-002.jpg' />
                                 </div>
                                 </a>
@@ -60,7 +60,7 @@ export default function BreakingNews() {
                           
                             <div className={`${c.box}`}>
                             <a href='#'>
-                                <div className={c.image}>
+                            <div className={`${c.image} ${c.margin}`}>
                                     <ImageLoader width={696} height={464} src='breaking-003.jpg' />
                                 </div>
                                 </a>
@@ -81,7 +81,7 @@ export default function BreakingNews() {
                             
                             <div className={`${c.box}`}>
                             <a href='#'>
-                                <div className={c.image}>
+                            <div className={`${c.image} ${c.margin}`}>
                                     <ImageLoader width={696} height={464} src='breaking-004.jpg' />
                                 </div>
                                 </a>
@@ -118,7 +118,7 @@ export default function BreakingNews() {
                                     <a className={c.sub_heading} href='#'>Expanding Peacefull Political Climate Gears up for this Election</a>
                                 
                                    <div className={c.btn}>
-                                   <a href='#'>Politics</a>
+                                   <a className={c.hypeLink} href='#'>Politics</a>
                                    </div>
                                 </div>
                                 <a href='#'>
@@ -134,7 +134,7 @@ export default function BreakingNews() {
                                     <a className={c.sub_heading} href='#'>Expanding Peacefull Political Climate Gears up for this Election</a>
                                 
                                    <div className={c.btn}>
-                                   <a href='#'>Politics</a>
+                                   <a className={c.hypeLink} href='#'>Politics</a>
                                    </div>
                                 </div>
                                 <a href='#'>
@@ -150,7 +150,7 @@ export default function BreakingNews() {
                                     <a className={c.sub_heading} href='#'>Expanding Peacefull Political Climate Gears up for this Election</a>
                                 
                                    <div className={c.btn}>
-                                   <a href='#'>Politics</a>
+                                   <a className={c.hypeLink} href='#'>Politics</a>
                                    </div>
                                 </div>
                                 <a href='#'>
@@ -166,7 +166,7 @@ export default function BreakingNews() {
                                     <a className={c.sub_heading} href='#'>Expanding Peacefull Political Climate Gears up for this Election</a>
                                 
                                    <div className={c.btn}>
-                                   <a href='#'>Politics</a>
+                                   <a className={c.hypeLink} href='#'>Politics</a>
                                    </div>
                                 </div>
                                 <a href='#'>
@@ -186,7 +186,7 @@ export default function BreakingNews() {
                                     <a className={c.sub_heading} href='#'>Expanding Peacefull Political Climate Gears up for this Election</a>
                                 
                                    <div className={c.btn}>
-                                   <a href='#'>Politics</a>
+                                   <a className={c.hypeLink} href='#'>Politics</a>
                                    </div>
                                 </div>
                                 <a href='#'>
@@ -202,7 +202,7 @@ export default function BreakingNews() {
                                     <a className={c.sub_heading} href='#'>Expanding Peacefull Political Climate Gears up for this Election</a>
                                 
                                    <div className={c.btn}>
-                                   <a href='#'>Politics</a>
+                                   <a className={c.hypeLink} href='#'>Politics</a>
                                    </div>
                                 </div>
                                 <a href='#'>
@@ -218,7 +218,7 @@ export default function BreakingNews() {
                                     <a className={c.sub_heading} href='#'>Expanding Peacefull Political Climate Gears up for this Election</a>
                                 
                                    <div className={c.btn}>
-                                   <a href='#'>Politics</a>
+                                   <a className={c.hypeLink} href='#'>Politics</a>
                                    </div>
                                 </div>
                                 <a href='#'>
@@ -234,7 +234,7 @@ export default function BreakingNews() {
                                     <a className={c.sub_heading} href='#'>Expanding Peacefull Political Climate Gears up for this Election</a>
                                 
                                    <div className={c.btn}>
-                                   <a href='#'>Politics</a>
+                                   <a className={c.hypeLink} href='#'>Politics</a>
                                    </div>
                                 </div>
                                 <a href='#'>

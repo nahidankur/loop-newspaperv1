@@ -5,7 +5,7 @@ import { AiOutlineInstagram, AiOutlineTwitter} from 'react-icons/ai'
 export default function SocialDevider() {
     return (
         <>
-        <div className='section-space'>
+        <div className={`section-space`}>
         <div className='custom_container'>
             <div className={`border-top border-bottom`}>
              <div className={`p-3 ${c.flex}`}>

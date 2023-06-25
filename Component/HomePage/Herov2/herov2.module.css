@@ -1,6 +1,6 @@
 .subtext {
-    font-family: 'PT_Serif';
-    font-size: 16px;
+    font-family: '__PT_Serif_5a5ee9';
+    font-size: 15px;
     line-height: 18.2px;
     letter-spacing: -0.5px;
     color: #000;
@@ -13,7 +13,7 @@
     color: red;
 }
 .date{
-    font-family: 'Work_Sans';
+    font-family: '__Work_Sans_eb2171';
     font-size: 12px;
     line-height: 12px;
     margin-top: -7px;
@@ -27,6 +27,7 @@
 }
 .tag_btn{
     margin-top: 5px;
+    font-family: '__Work_Sans_eb2171';
 }
 .tag:hover{
     color: red;
@@ -65,6 +66,7 @@
     height: 180px;
 }
 .heading{
+    font-family: '__Work_Sans_eb2171';
     font-size: 32px;
     line-height: 1;
     color: #000;
@@ -72,6 +74,7 @@
     letter-spacing: -1px;
 }
 .subtitle {
+    font-family: '__Work_Sans_eb2171';
     font-size: 13px;
     line-height: 1.2;
     font-weight: 600;
@@ -94,6 +97,7 @@
 }
 
 .tag2{
+    font-family: '__Work_Sans_eb2171';
     font-size: 12px;
     font-weight: 600;
     color: red;
@@ -104,18 +108,19 @@
     color: #000;
 }
 .ptext {
+    font-family: '__Work_Sans_eb2171';
     font-size: 14px;
     color: #000;
     font-weight: 600;
 }
 .date2{
     font-size: 12px;
-    font-family: 'Work_Sans';
+    font-family: '__Work_Sans_eb2171';
     margin-top: -14px;
 }
 .date3{
     font-size: 12px;
-    font-family: 'Work_Sans';
+    font-family: '__Work_Sans_eb2171';
     padding-left: 12px;
 }
 
@@ -129,6 +134,7 @@
 
 
  .h1{
+    font-family: '__Work_Sans_eb2171';
     font-size: 40px;
     font-weight: 600;
     color: #fff;
@@ -155,6 +161,7 @@
     padding: 16px 20px;
  }
  .story{
+    font-family: '__Work_Sans_eb2171';
     font-size: 16px;
     color: #fff;
     font-weight: 500;
@@ -222,6 +229,12 @@
     }
  }
 
+ @media (max-width:1200px) {
+    .marginBottom{
+        margin-bottom: 750px;
+    }
+ }
+
  @media (max-width:550px) {
     .tag3{
         display:contents;
@@ -237,7 +250,7 @@
         gap: 10px
     }
     .marginBottom{
-        margin-bottom: 2530px;
+        margin-bottom: 2580px;
     }
     .flex1 {
         align-items: center;
@@ -262,3 +275,4 @@
    }
   
  }
+

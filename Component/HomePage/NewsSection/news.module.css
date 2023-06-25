@@ -1,3 +1,6 @@
+.margin {
+    margin-top: -12px;
+}
 .border {
     border-bottom: 3px solid red;
     padding-bottom: 10px;
@@ -7,7 +10,7 @@
 }
 .view {
     margin-right: 10px;
-    font-family: 'Roboto', sans-serif;
+    font-family: '__Work_Sans_eb2171';
     font-size: 13px;
     line-height: 1.2;
     font-weight: 600;
@@ -22,7 +25,7 @@
     color: #333;
 }
 .section_heading {
-    font-family: 'League Spartan', sans-serif;
+    font-family: '__Work_Sans_eb2171';
     font-size: 32px;
     font-weight: 800;
 }
@@ -31,6 +34,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 .heading_image img{
     /* width: 340px;
     height: 196px; */
@@ -41,7 +45,7 @@
     margin-bottom: 20px;
 }
 .heading {
-    font-family: 'League Spartan', sans-serif;
+    font-family: '__PT_Serif_5a5ee9';
     font-size: 26px;
     font-weight: 600;
     color: #333;
@@ -66,7 +70,7 @@
     vertical-align: middle;
 }
 .username {
-    font-family: 'Roboto', sans-serif;
+    font-family: '__Work_Sans_eb2171';
     font-size: 12px;
     font-weight: 600;
     margin-left: 10px;
@@ -79,7 +83,7 @@
     color: red;
 }
 .date{
-    font-family: 'Roboto', sans-serif;
+    font-family: '__Work_Sans_eb2171';
     font-size: 12px;
     font-weight: 600;
     margin-left: 10px;
@@ -93,8 +97,8 @@
 }
 .stext{
     color: #333;
-    font-family: 'League Spartan', sans-serif;
-    font-size: 18px;
+    font-family: '__Work_Sans_eb2171';
+    font-size: 16px;
     font-weight: 600;
     transition: color 0.3s;
 }
@@ -102,7 +106,7 @@
     color: red;
 }
 .date2{
-    font-family: 'Roboto', sans-serif;
+    font-family: '__Work_Sans_eb2171';
     font-size: 12px;
     font-weight: 600;
     color: #767676;
