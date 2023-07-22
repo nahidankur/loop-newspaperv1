@@ -10,6 +10,11 @@ body{
     max-width: 1400px;
     margin: auto;
   }
+.custom_container_secondary {
+    width: 95%;
+    max-width: 1200px;
+    margin: auto;
+}
   .section-space {
     padding: 30px 0;
   }
@@ -91,5 +96,10 @@ body{
       max-width: 95%;
       width: 95%;
       padding: 0px 5px !important;
+    }
+    .custom_container_secondary {
+        width: 95%;
+        max-width: 95%;
+        padding: 0px 5px !important;
     }
   }

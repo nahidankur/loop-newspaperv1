@@ -23,7 +23,7 @@ export default function BreakingNews() {
                                
                                 <div className={c.text_container}>
                                   <div className='mb-3'>
-                                  <a className='tag_btn bg_red'>CELEBRITY</a>
+                                  <a href='#' className='tag_btn bg_red'>CELEBRITY</a>
                                   </div>
                                     <div className={c.heading}>
                                         <a href='#'>
@@ -44,7 +44,7 @@ export default function BreakingNews() {
                                 </a>
                                 <div className={c.text_container}>
                                   <div className='mb-3'>
-                                  <a className='tag_btn bg_red'>CELEBRITY</a>
+                                  <a href='#' className='tag_btn bg_red'>CELEBRITY</a>
                                   </div>
                                     <div className={c.heading}>
                                         <a href='#'>

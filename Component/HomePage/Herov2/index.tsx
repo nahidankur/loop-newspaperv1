@@ -5,7 +5,7 @@ import ImageLoader from '@/Component/ImageLoader'
 export default function Herov2() {
     return(
         <>
-        <div className={`section-space ${c.marginBottom}`}>
+        <div className={`section-space ${c.marginTop} ${c.marginBottom}`}>
             <div className={c.bg_grey}>
             <div className='custom_container'>
 
@@ -141,10 +141,9 @@ export default function Herov2() {
                         </div>
                         <div className={c.textContainer}>
                         <a href='#' className='tag_btn bg_red'>Marketing
-                        </a>
-                        <a href='#'>
+                        </a>    
                         <a href='#'><h1 className={c.h1}>Social Media Marketing for Franchises is Meant for Women</h1></a> 
-                        </a> 
+ 
                         <p className={c.story}>
                         Find people with high expectations and a low tolerance for excuses. They'll have higher expectations for you than you have for yourself. Don't flatter yourself...
                         </p>
@@ -177,7 +176,7 @@ export default function Herov2() {
 
                     <div className={c.sideBox}>
                         <div>
-                        <a href="#" className={c.tag2}>FINANCE</a>
+                        <a href="#" className={c.tag2}>FINANCE</a> 
                         
                         <a href='#'><p className={c.ptext}> Social Media Marketing for Franchises is Meant for Women</p></a> 
                         <p className={c.date2}>September 29, 2021</p>

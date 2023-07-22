@@ -1,0 +1,267 @@
+         <div className={c.cover_bg}>
+            <div className={c.cover_content}>
+                <p className={c.subtitle}>MAKE-UP</p>
+                <h1 className={c.main_title}>Take a Stroll Through the Pros and Cons of Permanent Eyebrows Tattoos</h1>
+            </div>
+        </div> *
+
+        <div className="custom_container_secondary">
+            <div className={c.authorInfo}>
+                <p className={c.authorName}>By: Dan Bush</p>
+                <p className={c.publish_date}>Date: September 29, 2021</p>
+            </div>
+            <div className='border mt-2'></div>
+
+            <div className='row'>
+                <div className='col-lg-9 col-md-9'>
+                  <div className={c.news}>
+                  <p>
+                    Find people with high expectations and a low tolerance for excuses. They’ll have higher expectations for you than you have for yourself. Don’t flatter yourself that this has much to do with you – this is just who they are. Don’t look for “nice” in these relationships. Look for trust.
+                    </p>
+
+                    <div className={c.quotes}>
+                        <p>Be fearless in front of them with your ideas as many times as they’ll let you</p>
+                    </div>
+
+                    <p>
+                    Beauty Dust is very pretty to look at and it tastes like nothing, which is great. Here is what it’s supposed to do: This ancient empiric formula expands beauty through alchemizing elements legendary for their youth preserving, fortifying and tonifying qualities. Glowing supple skin, lustrous shiny hair and twinkling bright eyes are holistically bestowed from the inside out.
+                    </p>
+
+                    <div className={c.newsImage}>
+                        <ImageLoader width={1280} height={853} src='inner-001.jpg' alt="image" />
+                    </div>
+                    <p>
+                    I actually first read this as alkalizing meaning effecting pH level, and I was like, OK I guess I understand how that could positively effect your body, but alchemizing means turning elements to gold basically through magic. That lead me to research each ingredient because I know alchemy is not actually happening in my body when I eat this, since alchemy is not real.
+                    </p>
+                    <p>
+                    In addition to loving beauty and taking care of myself, I also love opening people minds to other paths of self-care, and good marketing and I can honestly say that I use and personally love this product but I’m not sure for which reason.
+                    </p>
+
+                    <div className= {c.quotes} >
+                        <p>I think it made me think about it more and really consider why I was choosing to add this to my routine</p>
+                    </div>
+
+                    <p>
+                    It poses an interesting question for me on the wellness category – will people be willing to buy in, or does eating something change your “sniff” test on the believe-ability of the claims?
+                    </p>
+
+                    <p>
+                    The color is very long lasting and they have an interesting texture that’s like a powder and a cream but neither really. They’re made with pure pigments and oils and will never melt with the warmth of your skin because they don’t contain any waxes. You can literally use them for anything – obviously as eye shadow and liner, but the light shade is a great highlighter, and the red can be used for lip or blush with a little balm.
+                    </p>
+
+                    <div className={c.newsImage}>
+                    <ImageLoader width={1280} height={853} src='inner-002.jpg' alt="image" />
+                    </div>
+
+                    <p>
+                    There’s also a little pouch to store the rollerballs, and a card with different inspirations as to how to blend them on your skin – but it’s foolproof. You can’t make a mess if you mix them all up.
+                    </p>
+
+                    <p>
+                    Badger Beard Balm is perfect for the bearded gents in your life (is this everyone? beards are so trending). It is filled with good things such as vitamins A, D, E & F to keep his beard healthy, thicker and cleaner, as well as helping to relieve itchiness as it soothes the skin under the hair.
+                    </p>
+
+                    <div className={c.quotes}>
+                        <p>
+                        If you’re looking to get rid of this beard, maybe this is not the right angle for your gifting
+                        </p>
+                    </div>
+
+                    <p>
+                    Further, no one wants to cuddle with a dirty beard – who knows, maybe you already are and are dying for a nice way to help this problem of yours his. Beard Wash made by Beard Buddy. Started in 2011 in California, all Beard Buddy products are hand crafted by beards for beards. Both founders have large beards of their own to tame, and wanted to do this with organic products – kudos, and cuddles, to them.
+                    </p>
+
+                  </div>
+                  <div className={c.tags}>
+                   <a href='#'><p className={c.tagBtn}>TAGS</p></a> 
+                   <a href='#'><p className={c.tag} >news</p></a> 
+                   <a href='#'><p className={c.tag} >newspaper</p></a> 
+                   <a href='#'><p className={c.tag} >week</p></a> 
+                   <a href='#'><p className={c.tag} >wordpress</p></a>  
+                  </div>
+
+            <div className='row'>
+                <div className='col-lg-6 col-md-6'>
+                <div className={c.prev_article}>
+                    <p className={c.prev_}>Previous article</p>
+                   <a href='#'><p className={c.prev_title}>10 Cool Startups that Will Change Your Perspective on Clothes & Fashion</p></a> 
+                  </div>
+                </div>
+
+                <div className='col-lg-6 col-md-6'>
+                <div className={c.prev_article}>
+                    <p className={c.prev_}>Next article</p>
+                   <a href='#'><p className={c.prev_title}>10 Cool Startups that Will Change Your Perspective on Clothes & Fashion</p></a> 
+                  </div>
+                </div>
+       
+            </div>
+
+                  <div className={`border-top border-bottom ${c.margin}`}>
+                    <div className={c.author_container}>
+                        <a href='#'>
+                        <div className={c.author_image}>
+                            <ImageLoader alt="user" width={96} height={96} src='user.jpg' />
+                        </div>
+
+                        </a>   
+                        <div className={c.author_desc}>
+                            <p className={c.author_name}>Dan Bush</p>
+                            <a href='#'><p className={c.author_link}>https://demo.tagdiv.com/newspaper_week_pro/</p></a>  
+                            <p className={c.text}>Newspaper is your news, entertainment, music fashion website. We provide you with the latest breaking news and videos straight from the entertainment industry.</p>
+                            <div className={c.icons}>
+                              <a href='#'><FaFacebookF className={c.icon} /></a>  
+                               <a href='#'><FaInstagram className={c.icon} /></a> 
+                               <a href='#'><FaTwitter className={c.icon} /></a> 
+                               <a href='#'><FaYoutube className={c.icon} /></a> 
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+
+                  {/* comment box */}
+                  <p className={c.leaveReply}>LEAVE A REPLY</p>
+   
+                  <div >
+                <textarea placeholder='Comment: ' className={c.textarea}>
+                </textarea>
+                <div className='row'>
+                    <div className='col-lg-4 col-md-4'>
+                    <input className={c.inputComment} placeholder='Name:*' />
+                    </div>
+                    <div className='col-lg-4 col-md-4'>
+                    <input className={c.inputComment} placeholder='Email:*' />
+                    </div>
+                    <div className='col-lg-4 col-md-4'>
+                    <input className={c.inputComment}  placeholder='Website:*' />
+                    </div>
+                </div>
+                  </div>
+
+                    <div className={c.checkboxSec}>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" />
+            <label className={c.checkLabel}>Save my name, email, and website in this browser for the next time I comment.</label>
+                    </div>
+                   <button type='submit' className={c.cmt_btn}>
+                    POST COMMENT
+                    </button>
+                </div>
+
+
+ 
+            {/* side bar */}
+            <div className='col-lg-3 col-md-3'>
+                <div className={c.shareBox}>
+                    <p className={c.shareText}>Share Post: </p>
+                    <div className={c.social_icons}>
+                            <div className={c.IconContainer}>
+                          <a href="#"> <FaFacebookF className={c.icon} /></a> 
+                            </div>
+                            <div className={c.IconContainer}>
+                           <a href="#"> <FaInstagram className={c.icon} /></a>
+                            </div>
+                            <div className={c.IconContainer}>
+                           <a href="#"> <FaTwitter className={c.icon} /></a>
+                            </div>
+                            <div className={c.IconContainer}>
+                            <a href="#"><FaYoutube className={c.icon} /></a>
+                            </div>
+                        </div>
+                </div>
+
+                <div>
+                    <p className={c.subsText}>Subscribe</p>
+                    <form>
+                        <div>
+                            <input className={c.emailinput} placeholder='Email Address' />
+                        </div>
+                        <div className={c.sbsBContainer}>
+                            <a className={c.sbsbtn} href='#'>I WANT IN <BsArrowRight /></a>
+                        </div>
+
+                        <div className={c.inputFlex}>
+                        <input type="checkbox" id="vehicle1" name="vehicle1" />
+                        <label className={c.label} > I have read and accept the</label>
+                       
+                        <a className={c.hypeLink} href="#">Privacy Policy</a>
+                        </div>
+                    </form>
+                </div>
+
+
+
+                {/* popular section */}
+
+                <div>
+                    <p className={c.populartext}>Popular</p>
+                    <a className={c.pupuHref} href='#'>
+                    <div className={c.pupuFlex}>
+                        <div className={c.popuImage}>
+                        <ImageLoader width={1280} height={853} src='inner-001.jpg' alt="image" />   
+                        </div>
+                        <p className={c.popuText}>
+                        Social Media Marketing for Franchises is Meant for Women
+                        </p>
+                    </div>
+                    </a>
+
+                    <a className={c.pupuHref} href='#'>
+                    <div className={c.pupuFlex}>
+                        <div className={c.popuImage}>
+                        <ImageLoader width={1280} height={853} src='inner-001.jpg' alt="image" />   
+                        </div>
+                        <p className={c.popuText}>
+                        Social Media Marketing for Franchises is Meant for Women
+                        </p>
+                    </div>
+                    </a>
+
+                    <a className={c.pupuHref} href='#'>
+                    <div className={c.pupuFlex}>
+                        <div className={c.popuImage}>
+                        <ImageLoader width={1280} height={853} src='inner-001.jpg' alt="image" />   
+                        </div>
+                        <p className={c.popuText}>
+                        Social Media Marketing for Franchises is Meant for Women
+                        </p>
+                    </div>
+                    </a>
+
+                    <a className={c.pupuHref} href='#'>
+                    <div className={c.pupuFlex}>
+                        <div className={c.popuImage}>
+                        <ImageLoader width={1280} height={853} src='inner-001.jpg' alt="image" />   
+                        </div>
+                        <p className={c.popuText}>
+                        Social Media Marketing for Franchises is Meant for Women
+                        </p>
+                    </div>
+                    </a>
+
+                    <a className={c.pupuHref} href='#'>
+                    <div className={c.pupuFlex}>
+                        <div className={c.popuImage}>
+                        <ImageLoader width={1280} height={853} src='inner-001.jpg' alt="image" />   
+                        </div>
+                        <p className={c.popuText}>
+                        Social Media Marketing for Franchises is Meant for Women
+                        </p>
+                    </div> 
+                    </a>
+
+                  
+
+                   
+
+                    
+
+                </div>
+
+
+
+            </div>
+
+
+            </div>
+       
+        </div>

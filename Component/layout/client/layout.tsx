@@ -1,4 +1,5 @@
 import { FC } from "react";
+import Navbar from "./navbar";
 import Footer from "./footer";
 
 interface PropsType {
@@ -8,6 +9,7 @@ interface PropsType {
 const ClientLayout: FC<PropsType> = ({ children }) => {
   return (
     <>
+      <Navbar />
       <main>{children}</main>
       <Footer />
     </>

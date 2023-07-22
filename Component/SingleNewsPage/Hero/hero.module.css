@@ -1,0 +1,455 @@
+.bgContainer {
+    padding: 10px 15px;
+}
+.gum {
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+    font-family: '__Work_Sans_eb2171';
+    margin-top: 10px;
+}
+.cover_bg {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1400px;
+    margin: auto;
+    position: relative;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) 42%, rgba(0, 0, 0, 0) 61%, rgba(0, 0, 0, 0)), url('../../../public/uploads/cover.jpg');
+}
+
+.cover_content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 25px;
+    padding: 0 65px;
+}
+.main_title {
+    font-family: '__PT_Serif_5a5ee9';
+    font-size: 54px;
+    font-weight: 600;
+}
+.subtitle {
+    font-family: '__Work_Sans_eb2171';
+    font-size: 17px;
+    font-weight: 600;
+}
+.authorInfo {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: '__Work_Sans_eb2171';
+    font-size: 15px;
+    font-weight: 600;
+}
+.authorName {
+   border-right: 1px solid #000;
+   padding-right: 20px;
+
+}
+.publish_date {
+    padding-left: 20px;
+}
+.news{
+    margin-top: 50px;
+    font-family: '__Work_Sans_eb2171';
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+.quotes{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.quotes p {
+    font-family: '__PT_Serif_5a5ee9';
+    font-size: 32px;
+    color: #ec3535;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: -0.5px;
+    text-align: center;
+}
+.newsImage {
+    overflow-x: hidden;
+    margin: 20px 0;
+}
+.newsImage img {
+    max-width: 900px;
+    height: auto;
+    object-fit: contain;
+}
+.tags {
+    display: flex;
+    font-family: '__Work_Sans_eb2171';
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+}
+.tagBtn {
+    margin-right: 4px;
+    color: #fff;
+    background: #000;
+    padding: 6px 10px 5px;
+  
+}
+.tag {
+    color: #000;
+    padding: 6px 8px 5px;
+    margin-right: 4px;
+    border: 1px solid #ededed;
+    font-size: 14px;
+    transition: all 0.1s;
+}
+.tag:hover{
+    color: #fff;
+    background: #000;
+}
+.prev_article{
+    padding: 20px;
+    background: #f7f7f7;
+    max-width: 400px;
+    margin-top: 30px;
+}
+.prev_{
+    font-family: '__Work_Sans_eb2171';
+    font-size: 15px;
+    font-weight: 600;
+}
+.prev_title{
+    font-family: '__PT_Serif_5a5ee9';
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #000;
+    transition: color 0.3s;
+}
+.prev_title:hover{
+    color: #ec3535;
+}
+.margin{
+    margin-top: 40px;
+}
+.author_container {
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+}
+.author_image img{
+    border-radius: 50%;
+}
+.author_desc {
+    margin-left: 30px;
+}
+
+.icons {
+    display: flex;
+    margin-top: 6px;
+}
+.icon{
+    margin-right: 20px;
+    color: #000;
+    transition: color 0.3s;
+}
+.icon:hover{
+    color: #ec3535;
+}
+.author_name{
+    font-family: '__PT_Serif_5a5ee9';
+    font-size: 22px;
+    font-weight: 600; 
+}
+.author_link{
+    color: #000;
+    font-family: '__Work_Sans_eb2171';
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 0;
+}
+.text{
+    font-family: '__Work_Sans_eb2171';
+    font-size: 15px; 
+   margin-top: 6px;
+   margin-bottom: 0;
+}
+
+.textarea{
+    width: 100%;
+    min-height: 200px;
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    padding: 10px 10px;
+    margin-bottom: 15px;
+}
+.leaveReply {
+    margin-top: 20px;
+    font-weight: 600;
+}
+.textarea:focus{
+    outline: none;
+}
+.inputComment {
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+}
+.inputComment:focus{
+    outline: none;
+}
+.checkboxSec {
+    display: flex;
+
+}
+.checkLabel {
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: '__Work_Sans_eb2171';
+}
+
+.cmt_btn {
+    border-radius: 3px;
+    font-size: 13px;
+    color: #fff;
+    padding: 12px 18px 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background-color: #ec3535;
+    border: none;
+    margin-top: 20px;
+}
+
+.social_icons{
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+}
+.IconContainer {
+    background:#ec3535;
+    padding: 8px 8px;
+    border-radius: 2px;
+    width: 40px;
+    height: 40px;
+    margin-right:  10px;
+    text-align: center;
+    transition: background 0.3s;
+}
+.IconContainer:hover{
+    background: #ff90a8;
+    cursor: pointer;
+}
+.icon  {
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+}
+
+.shareBox {
+   text-align: center;
+   margin-bottom: 35px;
+    padding-top: 25px ;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.12);
+    margin-top: 50px;
+}
+.shareText {
+    font-size: 16px;
+    font-weight: 600;
+}
+.inputFlex {
+    display: flex;
+    max-width: 360px;
+    margin-top: 10px;
+    font-family: '__Work_Sans_eb2171';
+    font-size: 13px;
+}
+.label {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.color_rd {
+    color: #ec3535;
+}
+.subsText {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: '__Work_Sans_eb2171';
+}
+.emailinput {
+    padding: 10px 8px;
+    font-size: 12px;
+    font-weight: 500;
+    border: 1px solid #dbdbdb;
+    width: 100%;
+
+}
+.emailinput:focus{
+    outline: none;
+}
+.sbsbtn {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+   
+}
+.sbsbtn:hover{
+    color: #fff;
+}
+.sbsBContainer {
+    width: 100%;
+    background-color: #ec3535;
+    padding: 10px 15px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.populartext {
+    font-size: 32px;
+    font-family: '__Work_Sans_eb2171';
+    font-weight: 700;
+    border-bottom: 3px solid #ec3535;
+    padding-bottom: 6px;
+    margin-top: 20px;
+}
+.pupuFlex {
+    display: flex;
+    margin: 6px 0px;
+}
+.popuImage img {
+    width: 88px;
+    height: 62px;
+    margin-right: 10px;
+}
+.popuText {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: '__PT_Serif_5a5ee9';
+    transition: color 0.3s;
+}
+.popuText:hover{
+    color: #ec3535;
+    cursor: pointer;
+}
+.pupuHref {
+    color: #000 !important;
+}
+
+
+/* mobile responsive */
+@media (max-width: 576px) {
+    .author_container {
+        display: block;
+        text-align: center;
+    }
+    .author_desc{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .cover_bg {
+        height: 70vh !important;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        max-width: 1400px;
+        margin: auto;
+    }
+    .main_title {
+        font-size: 28px !important;
+    }
+    .subtitle {
+        font-size: 14px;
+    }
+    .news{
+        font-size: 15px;
+        margin-top: 10px;
+
+    }
+    .quotes p {
+        font-size: 22px;
+    }
+    .newsImage img {
+        max-width: 400px;
+    }
+    .prev_title{
+        font-size: 16px;
+
+    }
+    .icon  {
+        font-size: 18px !important;
+        text-align: center;
+        color: #fff;
+    }
+    .IconContainer {
+        background:#ec3535;
+        padding: 8px 8px;
+        border-radius: 2px;
+        width: 40px !important;
+        height: 40px !important;
+        margin-right:  10px !important;
+    }
+    .tagBtn {
+        margin-right: 0px;
+        padding: 6px 10px 5px;
+      
+    }
+    .tag {
+        padding: 6px 8px 5px;
+        margin-right: 0px;
+    }
+
+}
+
+@media (max-width:768px) {
+    .pupuFlex {
+        display: block;
+    }
+    .popuImage img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-right: 10px;
+    }
+    .popuText {
+        margin-top: 10px;
+    }
+    .newsImage img {
+        width: 100%;
+        height: auto;
+    }
+    .cover_bg {
+        height: 50vh;
+        max-width: 1400px;
+    }
+    .main_title {
+        font-size: 36px;
+    }
+    .icon  {
+        font-size: 12px;
+        text-align: center;
+        color: #fff;
+    }
+    .IconContainer {
+        background:#ec3535;
+        padding: 8px 8px;
+        border-radius: 2px;
+        width: 30px;
+        height: 35px;
+        margin-right:  5px;
+    }
+}
+
+
+
+@media (max-width:1137px) {
+    .label, .hypeLink {
+        font-size: 11px;
+    }
+}

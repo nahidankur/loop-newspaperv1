@@ -7,7 +7,6 @@
     box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
     font-weight: bold;
     transition: color 0.3s;
-
 }
 .subtext:hover{
     color: red;
@@ -142,7 +141,7 @@
     font-size: 40px;
     font-weight: 600;
     color: #fff;
-    padding-right: 100px;
+    padding-right: 40px;
  }
 
  .box{
@@ -193,6 +192,9 @@
  
  .flex1 {
     display: flex;
+ }
+ .marginTop {
+    margin-top: 50px;
  }
 
  @media (max-width:1100px) {
@@ -278,5 +280,31 @@
     font-size: 14px;
    }
   
+ }
+
+ @media (max-width:768px) {
+    .h1{
+        padding-right: 0px;
+        margin-top: 10px;
+    }
+    .featureImage {
+        height: 500px;
+     }
+     .subtext {
+        font-size: 12px;
+    }
+    .heading{
+        font-size: 20px;
+    }
+    .marginBottom {
+        margin-bottom:700px;
+     }
+     .sideBox{
+        padding: 14px 10px;
+    }
+    .date2 {
+        display: none;
+    }
+    
  }
 
