@@ -34,7 +34,6 @@ export default function Magazine(){
                    <a className={c.margin} href='#'> <p className={c.username}>Dan Bush -</p></a>
                    <p className={c.date}> September 29, 2021</p>
                    </div>
-                  
                     </div>
                             </div>
                         </div>
@@ -70,7 +69,7 @@ export default function Magazine(){
 
                 {/* second row */}
 
-                <div className='row'>
+                <div className={`row`}>
                     <div className='col-lg-3 col-md-3'>
                         <div className={c.imageBox2}>
                         <ImageLoader height={464} width={696} src='breaking-001.jpg' />
@@ -78,7 +77,7 @@ export default function Magazine(){
 
                         <a href='#'> <h3 className={c.h3}>The Biggest Hollywood Celebrities Visit the Ranches of California</h3></a>
 
-                        <div className={c.flex3}>
+                   <div className={c.flex3}>
                    <div className={c.avatarImage2}>
                    <ImageLoader src='user.jpg' height={96} width={96} />
                    </div>
@@ -86,7 +85,6 @@ export default function Magazine(){
                    <a className={c.margin} href='#'> <p className={c.username}>Dan Bush -</p></a>
                    <p className={c.date}> September 29, 2021</p>
                    </div>
-                  
                     </div>
                     </div>
 

@@ -90,7 +90,7 @@
     font-family: '__PT_Serif_5a5ee9';
     line-height: 1;
     font-weight: 600;
-    padding: 0 15px;
+    padding: 0px 15px;
     transition: color 0.3s;
     color: black;
 }
@@ -189,4 +189,15 @@
         margin-bottom: 60px;
     }
     
+}
+
+@media (max-width:576px){
+    .h1{
+        font-size: 20px;
+        padding-left: 0px;
+    }
+    .avatarImage img {
+        margin-left: 0px;
+    }
+ 
 }

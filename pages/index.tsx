@@ -8,7 +8,6 @@ import Magazine from '@/Component/HomePage/MagazineSection'
 import Herov2 from '@/Component/HomePage/Herov2'
 
 
-
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {

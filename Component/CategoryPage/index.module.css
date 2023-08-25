@@ -1,0 +1,238 @@
+.innerNav {
+    display: flex;
+    color: #8a8a8a;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.inner1 {
+    margin-right: 10px;
+}
+.catTitle {
+    font-size: 30px;
+    font-weight: 600;
+    border-bottom: 2px solid #000;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+/* .leftContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 30px;
+} */
+.heading {
+    font-size: 28px;
+    font-weight: 600;
+    color: #161616;
+}
+
+.hImage > img {
+    width: 100%;
+    height: auto;
+}
+.tag {
+    color: #dd0017;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.tag:hover {
+    color: #dd0017;
+}
+.date {
+    font-size: 11px;
+    color: #8a8a8a;
+}
+.sdate {
+    font-size: 11px;
+    color: #8a8a8a;
+    margin-top: 10px;
+}
+.mainBody {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.readMoreBtn {
+    padding: 10px 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #505050;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 0 2px 7px -4px rgba(0,0,0,.16);;
+}
+.readMoreBtn:hover {
+    color: #fff;
+    background-color: #000;
+}
+.divider {
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 30px;
+}
+
+.imgLit > img {
+    width: 100%;
+    height: auto;
+}
+.innerTitle {
+    font-size: 17px;
+    color: #161616;
+    font-weight: 600;
+}
+.innerTitle2 {
+    font-size: 14px;
+    color: #161616;
+    font-weight: 600;
+}
+.innerBody {
+    font-size: 14px;
+    margin-top: 10px;
+}
+.dividerRight {
+    border-right: 1px solid #e2e2e2;
+    padding-right: 10px;
+}
+.dividerLeft {
+    padding-left: 10px;
+}
+.rightSideImg > img {
+    width: 100%;
+    height: auto;
+}
+.rightSideImg {
+    margin-bottom: 12px;
+}
+
+.paddingSidebar {
+    padding-left: 20px;
+    border-left: 1px solid #e2e2e2;
+}
+.leftPadding {
+    padding-right: 20px;
+}
+.slImg > img {
+    width: 75px;
+    height: 68px;
+    object-fit: cover;
+} 
+.slFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 10px;
+}
+.slFlex2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.borderBottom {
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 10px;
+}
+.ctImgContainer > img {
+    width: 100%;
+    height: auto;object-fit: cover;
+}
+.ctBelow {
+    margin-top: 30px;
+}
+.heading2 {
+    font-size: 17px;
+    color: #161616;
+    font-weight: 600;
+}
+.para {
+    font-size: 14px;
+    margin-top: 15px;
+}
+.ctInnerLeft {
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 16px;
+    margin-bottom: 10px;
+}
+.ctInnerLeft2 {
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 16px;
+    margin-top: 16px;
+}
+
+.ep {
+    font-size: 16px;
+    font-weight: 600;
+    color: #161616;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    border-top: 2px solid #000;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.epContainer {
+    display: flex;
+    border-bottom: 1px solid #e2e2e2;
+}
+.epContainer2 {
+    display: flex;
+    border-bottom: 1px solid #e2e2e2;
+    margin-top: 18px;
+}
+.epContainerLast {
+    display: flex;
+    margin-top: 18px;
+    margin-bottom: 30px;
+}
+.epImg1 {
+    margin-right: 14px;
+}
+.epImg1 > img {
+    width: 75px;
+    height: 68px;
+    object-fit: cover;
+}
+.epbody {
+    font-size: 14px;
+    font-weight: 600;
+    color: #161616;
+}
+.lpImg > img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.num {
+    font-size: 30px;
+    color: #cecece;
+    font-weight: 600;
+    margin-left: 6px;
+    margin-right: 15px;
+}
+.txtContainer {
+    display: flex;
+    margin-top: 14px;
+}
+.lpTitle {
+    font-size: 16px;
+    font-weight: 600;
+}
+.lpContainer {
+    margin-bottom: 15px;
+}
+
+
+/* media query */
+@media (max-width: 576px) {
+    .hImage {
+        margin-top: 30px;
+    }
+    .imgLit {
+        margin-bottom: 20px;
+    }
+    .ctImgContainer {
+        margin-bottom: 15px;
+    }
+
+}
